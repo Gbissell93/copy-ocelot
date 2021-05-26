@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
+  padding: 5px 2px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #888888;
+  padding: 0 7px 0 7px;
+}
+
+.nav li a:hover {
+  color: white;
+}
+
+.nav-right li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7px 0 7px;
+  text-decoration: none;
+  color: white;
+}
+.header-2 {
+  background-color: #004878;
+  padding: 12px 0 10px 15px;
+}
+
+.logo {
+  height: 27px;
+  margin-right: 6px;
+}
+
+h1 {
+  color: white;
+}
+
+.nav-2 {
+  display: flex;
+}
+
+.nav-2 li {
+  list-style: none;
+  padding: 15px 7px 0 7px;
+}
+
+.nav-2 li a {
+  text-decoration: none;
+  color: white;
+}
+.control-bar {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 117px;
+  padding: 0 36px;
+  border-bottom: solid #eeeeee 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.profile-img {
+  background-color: #ebebeb;
+  border: #eeeeee solid 5px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px #c7c7c7;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 100px;
+  left: 45px;
+  width: 160px;
+}
+
+.time,
+.email {
+  display: flex;
+  align-items: center;
+  color: #a0a0a0;
+}
+
+.email a {
+  text-decoration: none;
+}
+.name-fit {
+  width: 184px;
+  height: 29px;
+  position: absolute;
+  left: 250px;
+  top: 160px;
+}
+
+.name {
+  width: 100%;
+  height: 100%;
+  font-size: x-large;
+  font-weight: 700;
+  color: #555555;
+}
+.name::after {
+  content: "Director at Code Immersives";
+  font-size: small;
+  font-weight: 100px;
+  display: block;
+  margin-top: 5px;
+  color: #555555;
+}
+
+.tabs {
+  margin-top: 12px;
+  margin-right: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.bulletin-btn {
+  border: none;
+  border-bottom: none;
+  border-right: none;
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 8px 5px;
+  border-radius: 2px;
+}
+.info-btn {
+  border: none;
+  background-color: #eeeeee;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1px 8px 0px;
+  cursor: pointer;
+}
+
+.info-btn:hover {
+  background-color: #c2c2c2;
+}
+.main {
+  width: 700px;
+  height: 200px;
+  position: relative;
+  bottom: 220px;
+  left: 250px;
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.bulletin-post {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.sub-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.formatting {
+  text-decoration: none;
+  color: #555555;
+}
+.formatting:hover {
+  text-decoration: underline;
+}
+.post-btn {
+  padding: 2px;
+  background-color: #f8f6f6;
+  border: #cecdcd solid 1px;
+}
+.side-item {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.follow-item {
+  display: flex;
+}
+.follow-num {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.follow-num a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 17px;
+  padding-bottom: 80px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-links li {
+  padding-right: 15px;
+  display: flex;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: #555555;
+}
