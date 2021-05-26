@@ -237,3 +237,10 @@ footer {
   text-decoration: none;
   color: #555555;
 }
+footer::before {
+  content: "There arent't any post on Anthony Derosa's bulletin board yet";
+  position: absolute;
+  bottom: 270px;
+  left: 250px;
+  color: #9a6e00;
+}
